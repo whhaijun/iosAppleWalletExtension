@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.pass-type-identifiers</key>
+	<array/>
+	<key>com.apple.developer.payment-pass-provisioning</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.tiqmo.wallet.ksa.uat</string>
+		<string>group.com.tiqmo.wallet.ksa.uat.appleExtensionUAT</string>
+	</array>
+</dict>
+</plist>

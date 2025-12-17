@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B5CFAD2EF253C100218163 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B5CFAC2EF253C100218163 /* UniformTypeIdentifiers.framework */; };
+		26B5CFB92EF253C100218163 /* extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26B5CFAA2EF253C100218163 /* extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26F7F3852EF278E7002DFFA0 /* AppGroupShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3762EF278E7002DFFA0 /* AppGroupShared.m */; };
+		26F7F3862EF278E7002DFFA0 /* EncryptedPassDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3782EF278E7002DFFA0 /* EncryptedPassDataResponse.m */; };
+		26F7F3872EF278E7002DFFA0 /* PassResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F37A2EF278E7002DFFA0 /* PassResource.m */; };
+		26F7F3882EF278E7002DFFA0 /* ProvisioningCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F37C2EF278E7002DFFA0 /* ProvisioningCredential.m */; };
+		26F7F3892EF278E7002DFFA0 /* WatchConnectivitySession.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F37E2EF278E7002DFFA0 /* WatchConnectivitySession.m */; };
+		26F7F38D2EF278E7002DFFA0 /* AppGroupShared.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3762EF278E7002DFFA0 /* AppGroupShared.m */; };
+		26F7F38E2EF278E7002DFFA0 /* EncryptedPassDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3782EF278E7002DFFA0 /* EncryptedPassDataResponse.m */; };
+		26F7F38F2EF278E7002DFFA0 /* PassResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F37A2EF278E7002DFFA0 /* PassResource.m */; };
+		26F7F3902EF278E7002DFFA0 /* ProvisioningCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F37C2EF278E7002DFFA0 /* ProvisioningCredential.m */; };
+		26F7F3912EF278E7002DFFA0 /* WatchConnectivitySession.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F37E2EF278E7002DFFA0 /* WatchConnectivitySession.m */; };
+		26F7F3922EF278E7002DFFA0 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3812EF278E7002DFFA0 /* ActionRequestHandler.m */; };
+		26F7F3932EF278E7002DFFA0 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F7F3832EF278E7002DFFA0 /* Media.xcassets */; };
+		26F7F3B52EF278F7002DFFA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3A12EF278F7002DFFA0 /* AppDelegate.m */; };
+		26F7F3B62EF278F7002DFFA0 /* HJAppleWalletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3A42EF278F7002DFFA0 /* HJAppleWalletManager.m */; };
+		26F7F3B72EF278F7002DFFA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3A82EF278F7002DFFA0 /* main.m */; };
+		26F7F3B82EF278F7002DFFA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3AC2EF278F7002DFFA0 /* SceneDelegate.m */; };
+		26F7F3B92EF278F7002DFFA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7F3AE2EF278F7002DFFA0 /* ViewController.m */; };
+		26F7F3BA2EF278F7002DFFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F7F3A22EF278F7002DFFA0 /* Assets.xcassets */; };
+		26F7F3BC2EF278F7002DFFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F7F3A72EF278F7002DFFA0 /* LaunchScreen.storyboard */; };
+		26F7F3BD2EF278F7002DFFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F7F3AA2EF278F7002DFFA0 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26B5CFB72EF253C100218163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B5CF5E2EF10BC500218163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B5CFA92EF253C100218163;
+			remoteInfo = extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26B5CFBE2EF253C100218163 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26B5CFB92EF253C100218163 /* extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26B5CF662EF10BC500218163 /* AppleWallet_band_App_card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWallet_band_App_card.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B5CFAA2EF253C100218163 /* extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B5CFAC2EF253C100218163 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		26F7F3752EF278E7002DFFA0 /* AppGroupShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppGroupShared.h; sourceTree = "<group>"; };
+		26F7F3762EF278E7002DFFA0 /* AppGroupShared.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppGroupShared.m; sourceTree = "<group>"; };
+		26F7F3772EF278E7002DFFA0 /* EncryptedPassDataResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptedPassDataResponse.h; sourceTree = "<group>"; };
+		26F7F3782EF278E7002DFFA0 /* EncryptedPassDataResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptedPassDataResponse.m; sourceTree = "<group>"; };
+		26F7F3792EF278E7002DFFA0 /* PassResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassResource.h; sourceTree = "<group>"; };
+		26F7F37A2EF278E7002DFFA0 /* PassResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassResource.m; sourceTree = "<group>"; };
+		26F7F37B2EF278E7002DFFA0 /* ProvisioningCredential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvisioningCredential.h; sourceTree = "<group>"; };
+		26F7F37C2EF278E7002DFFA0 /* ProvisioningCredential.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvisioningCredential.m; sourceTree = "<group>"; };
+		26F7F37D2EF278E7002DFFA0 /* WatchConnectivitySession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchConnectivitySession.h; sourceTree = "<group>"; };
+		26F7F37E2EF278E7002DFFA0 /* WatchConnectivitySession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchConnectivitySession.m; sourceTree = "<group>"; };
+		26F7F3802EF278E7002DFFA0 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		26F7F3812EF278E7002DFFA0 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		26F7F3822EF278E7002DFFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F7F3832EF278E7002DFFA0 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		26F7F3A02EF278F7002DFFA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F7F3A12EF278F7002DFFA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F7F3A22EF278F7002DFFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F7F3A32EF278F7002DFFA0 /* HJAppleWalletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAppleWalletManager.h; sourceTree = "<group>"; };
+		26F7F3A42EF278F7002DFFA0 /* HJAppleWalletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAppleWalletManager.m; sourceTree = "<group>"; };
+		26F7F3A52EF278F7002DFFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F7F3A62EF278F7002DFFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F7F3A82EF278F7002DFFA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F7F3A92EF278F7002DFFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F7F3AB2EF278F7002DFFA0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		26F7F3AC2EF278F7002DFFA0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		26F7F3AD2EF278F7002DFFA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26F7F3AE2EF278F7002DFFA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26F7F3DE2EF27BB8002DFFA0 /* extensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = extensionRelease.entitlements; sourceTree = "<group>"; };
+		26F7F3E12EF27F51002DFFA0 /* Tiqmo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tiqmo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B5CF632EF10BC500218163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B5CFA72EF253C100218163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B5CFAD2EF253C100218163 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B5CF5D2EF10BC500218163 = {
+			isa = PBXGroup;
+			children = (
+				26F7F3AF2EF278F7002DFFA0 /* AppleWallet_band_App_card */,
+				26F7F3842EF278E7002DFFA0 /* extension */,
+				26B5CFAB2EF253C100218163 /* Frameworks */,
+				26B5CF672EF10BC500218163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26B5CF672EF10BC500218163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B5CF662EF10BC500218163 /* AppleWallet_band_App_card.app */,
+				26B5CFAA2EF253C100218163 /* extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B5CFAB2EF253C100218163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B5CFAC2EF253C100218163 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26F7F37F2EF278E7002DFFA0 /* WNonUIExt */ = {
+			isa = PBXGroup;
+			children = (
+				26F7F3752EF278E7002DFFA0 /* AppGroupShared.h */,
+				26F7F3762EF278E7002DFFA0 /* AppGroupShared.m */,
+				26F7F3772EF278E7002DFFA0 /* EncryptedPassDataResponse.h */,
+				26F7F3782EF278E7002DFFA0 /* EncryptedPassDataResponse.m */,
+				26F7F3792EF278E7002DFFA0 /* PassResource.h */,
+				26F7F37A2EF278E7002DFFA0 /* PassResource.m */,
+				26F7F37B2EF278E7002DFFA0 /* ProvisioningCredential.h */,
+				26F7F37C2EF278E7002DFFA0 /* ProvisioningCredential.m */,
+				26F7F37D2EF278E7002DFFA0 /* WatchConnectivitySession.h */,
+				26F7F37E2EF278E7002DFFA0 /* WatchConnectivitySession.m */,
+			);
+			path = WNonUIExt;
+			sourceTree = "<group>";
+		};
+		26F7F3842EF278E7002DFFA0 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				26F7F3DE2EF27BB8002DFFA0 /* extensionRelease.entitlements */,
+				26F7F37F2EF278E7002DFFA0 /* WNonUIExt */,
+				26F7F3802EF278E7002DFFA0 /* ActionRequestHandler.h */,
+				26F7F3812EF278E7002DFFA0 /* ActionRequestHandler.m */,
+				26F7F3822EF278E7002DFFA0 /* Info.plist */,
+				26F7F3832EF278E7002DFFA0 /* Media.xcassets */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		26F7F3AF2EF278F7002DFFA0 /* AppleWallet_band_App_card */ = {
+			isa = PBXGroup;
+			children = (
+				26F7F3E12EF27F51002DFFA0 /* Tiqmo.entitlements */,
+				26F7F3A02EF278F7002DFFA0 /* AppDelegate.h */,
+				26F7F3A12EF278F7002DFFA0 /* AppDelegate.m */,
+				26F7F3A22EF278F7002DFFA0 /* Assets.xcassets */,
+				26F7F3A32EF278F7002DFFA0 /* HJAppleWalletManager.h */,
+				26F7F3A42EF278F7002DFFA0 /* HJAppleWalletManager.m */,
+				26F7F3A52EF278F7002DFFA0 /* Info.plist */,
+				26F7F3A72EF278F7002DFFA0 /* LaunchScreen.storyboard */,
+				26F7F3A82EF278F7002DFFA0 /* main.m */,
+				26F7F3AA2EF278F7002DFFA0 /* Main.storyboard */,
+				26F7F3AB2EF278F7002DFFA0 /* SceneDelegate.h */,
+				26F7F3AC2EF278F7002DFFA0 /* SceneDelegate.m */,
+				26F7F3AD2EF278F7002DFFA0 /* ViewController.h */,
+				26F7F3AE2EF278F7002DFFA0 /* ViewController.m */,
+			);
+			path = AppleWallet_band_App_card;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B5CF652EF10BC500218163 /* AppleWallet_band_App_card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B5CF7E2EF10BC700218163 /* Build configuration list for PBXNativeTarget "AppleWallet_band_App_card" */;
+			buildPhases = (
+				26B5CF622EF10BC500218163 /* Sources */,
+				26B5CF632EF10BC500218163 /* Frameworks */,
+				26B5CF642EF10BC500218163 /* Resources */,
+				26B5CFBE2EF253C100218163 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B5CFB82EF253C100218163 /* PBXTargetDependency */,
+			);
+			name = AppleWallet_band_App_card;
+			packageProductDependencies = (
+			);
+			productName = AppleWallet_band_App_card;
+			productReference = 26B5CF662EF10BC500218163 /* AppleWallet_band_App_card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B5CFA92EF253C100218163 /* extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B5CFBA2EF253C100218163 /* Build configuration list for PBXNativeTarget "extension" */;
+			buildPhases = (
+				26B5CFA62EF253C100218163 /* Sources */,
+				26B5CFA72EF253C100218163 /* Frameworks */,
+				26B5CFA82EF253C100218163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = extension;
+			packageProductDependencies = (
+			);
+			productName = extension;
+			productReference = 26B5CFAA2EF253C100218163 /* extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B5CF5E2EF10BC500218163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					26B5CF652EF10BC500218163 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					26B5CFA92EF253C100218163 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 26B5CF612EF10BC500218163 /* Build configuration list for PBXProject "AppleWallet_band_App_card" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B5CF5D2EF10BC500218163;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 26B5CF672EF10BC500218163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B5CF652EF10BC500218163 /* AppleWallet_band_App_card */,
+				26B5CFA92EF253C100218163 /* extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B5CF642EF10BC500218163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F7F3BA2EF278F7002DFFA0 /* Assets.xcassets in Resources */,
+				26F7F3BC2EF278F7002DFFA0 /* LaunchScreen.storyboard in Resources */,
+				26F7F3BD2EF278F7002DFFA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B5CFA82EF253C100218163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F7F3932EF278E7002DFFA0 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B5CF622EF10BC500218163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F7F3852EF278E7002DFFA0 /* AppGroupShared.m in Sources */,
+				26F7F3862EF278E7002DFFA0 /* EncryptedPassDataResponse.m in Sources */,
+				26F7F3B52EF278F7002DFFA0 /* AppDelegate.m in Sources */,
+				26F7F3B62EF278F7002DFFA0 /* HJAppleWalletManager.m in Sources */,
+				26F7F3B72EF278F7002DFFA0 /* main.m in Sources */,
+				26F7F3B82EF278F7002DFFA0 /* SceneDelegate.m in Sources */,
+				26F7F3B92EF278F7002DFFA0 /* ViewController.m in Sources */,
+				26F7F3872EF278E7002DFFA0 /* PassResource.m in Sources */,
+				26F7F3882EF278E7002DFFA0 /* ProvisioningCredential.m in Sources */,
+				26F7F3892EF278E7002DFFA0 /* WatchConnectivitySession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B5CFA62EF253C100218163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F7F38D2EF278E7002DFFA0 /* AppGroupShared.m in Sources */,
+				26F7F38E2EF278E7002DFFA0 /* EncryptedPassDataResponse.m in Sources */,
+				26F7F38F2EF278E7002DFFA0 /* PassResource.m in Sources */,
+				26F7F3902EF278E7002DFFA0 /* ProvisioningCredential.m in Sources */,
+				26F7F3912EF278E7002DFFA0 /* WatchConnectivitySession.m in Sources */,
+				26F7F3922EF278E7002DFFA0 /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B5CFB82EF253C100218163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B5CFA92EF253C100218163 /* extension */;
+			targetProxy = 26B5CFB72EF253C100218163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F7F3A72EF278F7002DFFA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F7F3A62EF278F7002DFFA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26F7F3AA2EF278F7002DFFA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F7F3A92EF278F7002DFFA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26B5CF7F2EF10BC700218163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleWallet_band_App_card/Tiqmo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S94HCC3V66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleWallet_band_App_card/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiqmo.wallet.ksa.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = tiqmo.ksa.uat.dev;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B5CF802EF10BC700218163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppleWallet_band_App_card/Tiqmo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S94HCC3V66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleWallet_band_App_card/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiqmo.wallet.ksa.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = tiqmo.ksa.uat.adhoc;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26B5CF812EF10BC700218163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26B5CF822EF10BC700218163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B5CFBB2EF253C100218163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = extension/extensionRelease.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S94HCC3V66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = extension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiqmo.wallet.ksa.uat.appleExtensionUAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Tiqmo_KSA_UAT_Extension_dev;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26B5CFBC2EF253C100218163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = extension/extensionRelease.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = S94HCC3V66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = extension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiqmo.wallet.ksa.uat.appleExtensionUAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Tiqmo_KSA_UAT_Extension_adhoc;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B5CF612EF10BC500218163 /* Build configuration list for PBXProject "AppleWallet_band_App_card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B5CF812EF10BC700218163 /* Debug */,
+				26B5CF822EF10BC700218163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B5CF7E2EF10BC700218163 /* Build configuration list for PBXNativeTarget "AppleWallet_band_App_card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B5CF7F2EF10BC700218163 /* Debug */,
+				26B5CF802EF10BC700218163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B5CFBA2EF253C100218163 /* Build configuration list for PBXNativeTarget "extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B5CFBB2EF253C100218163 /* Debug */,
+				26B5CFBC2EF253C100218163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B5CF5E2EF10BC500218163 /* Project object */;
+}
