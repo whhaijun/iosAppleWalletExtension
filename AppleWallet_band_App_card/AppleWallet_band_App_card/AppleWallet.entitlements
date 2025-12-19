@@ -4,18 +4,8 @@
 <dict>
 	<key>aps-environment</key>
 	<string>development</string>
-	<key>com.apple.developer.associated-domains</key>
-	<array>
-		<string>applinks:wallet-saas-dev.wallyt.net</string>
-		<string>applinks:tiqmolink.page.link</string>
-	</array>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array/>
-	<key>com.apple.developer.in-app-payments</key>
-	<array>
-		<string>merchant.tiqmo.ksa.checkout.applepay.preprod</string>
-		<string>merchant.tiqmo.ksa.hyperpay.applepay.preprod</string>
-	</array>
 	<key>com.apple.developer.networking.wifi-info</key>
 	<true/>
 	<key>com.apple.developer.payment-pass-provisioning</key>
